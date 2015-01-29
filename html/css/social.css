@@ -1,0 +1,59 @@
+/*
+ * */
+/* reset */
+
+.social-icons {
+    text-align: center;
+    border-bottom: 2px solid #E6E6E6;
+    padding: 2% 0 6%;
+}
+.social-icons li a {
+    height: 42px;
+    width: 42px;
+    display: block;
+    text-indent: -9999px;
+    background: url(../img/img-sprite.png);
+}
+.social-icons ul li:first-child,
+ol li:first-child {
+    margin-top: 0px;
+    margin-left: 0;
+}
+.social-icons li {
+    width: 42px;
+    height: 42px;
+    background: none;
+    padding: 0px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.social-icons a.twitter {
+    background-position: 0px top;
+}
+.social-icons a.twitter:hover {
+    background-position: 0px bottom;
+}
+.social-icons a.facebook {
+    background-position: -55px top;
+}
+.social-icons a.facebook:hover {
+    background-position: -55px bottom;
+}
+.social-icons a.googleplus {
+    background-position: -111px top;
+}
+.social-icons a.googleplus:hover {
+    background-position: -111px bottom;
+}
+.social-icons a.pinterest {
+    background-position: -168px top;
+}
+.social-icons a.pinterest:hover {
+    background-position: -168px bottom;
+}
+.social-icons a.linkedin {
+    background-position: -225px top;
+}
+.social-icons a.linkedin:hover {
+    background-position: -225px bottom;
+}

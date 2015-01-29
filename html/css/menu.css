@@ -1,0 +1,43 @@
+/*{
+    padding:0;
+    margin:0;
+}*/
+ul.menu,
+ul.menu ul,
+ul.menu li,
+ul.menu a {
+    padding: 0;
+    margin: 0;
+}
+/*主菜单*/
+
+ul.menu {
+    //list-style: none;
+    //border: 1px solid red;
+}
+/*子菜单*/
+
+ul.menu ul {} ul.menu,
+ul.menu ul {
+    //border: 1px solid red;
+    //width: 100px;
+}
+/*菜单项*/
+
+ul.menu li {
+    //padding: 5px 0 5px 10px;
+    list-style: none;
+    //border: 1px solid blue;
+    width: 100%;
+}
+ul.menu a {
+    background-color: grey;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0 8px 5px;
+    line-height: 18px;
+    //border: 1px solid red;
+}
+ul.menu a:hover {
+    background-color: orange;
+}
